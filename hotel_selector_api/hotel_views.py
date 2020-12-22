@@ -3,7 +3,7 @@ from .hotel_models import (
     Hotel,
     Category,
 )
-from desafio_sbtur.hotel_selector_api.hotel_serializers import HotelSerializer, CategorySerializer
+from hotel_selector_api.hotel_serializers import HotelSerializer, CategorySerializer
 
 
 class CategoryViewSet(viewsets.ModelViewSet):

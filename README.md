@@ -43,7 +43,7 @@ Instalando dependências:
 
 Preparando banco de dados da aplicação:
 ```
-(.venv)$ python manage.py makemigratios
+(.venv)$ python manage.py makemigrations
 (.venv)$ python manage.py migrate
 (.venv)$ python manage.py loaddata populate_db.json
 ```

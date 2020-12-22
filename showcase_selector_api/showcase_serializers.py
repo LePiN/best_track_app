@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from desafio_sbtur.hotel_selector_api.hotel_serializers import HotelSerializer
+from hotel_selector_api.hotel_serializers import HotelSerializer
 from .showcase_models import Showcase, PageRoute
 
 
