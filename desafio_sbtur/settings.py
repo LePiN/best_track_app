@@ -40,8 +40,7 @@ INSTALLED_APPS = [
     "hotel_selector_api",
     "showcase_selector_api",
     "location_selector_api",
-    "rest_framework",
-    "django_filters",
+    "rest_framework"
 ]
 
 MIDDLEWARE = [
@@ -73,10 +72,6 @@ TEMPLATES = [
 ]
 
 WSGI_APPLICATION = "desafio_sbtur.wsgi.application"
-
-REST_FRAMEWORK = {
-    "DEFAUL_FILTER_BACKENDS": ("django_filters.rest_framework.DjangoFilterBackend",)
-}
 
 
 # Database

@@ -1,5 +1,5 @@
 from django.db import models
-from location_selector_api.location_models import City, Country
+from desafio_sbtur.location_selector_api.location_models import City, Country
 
 
 class Category(models.Model):

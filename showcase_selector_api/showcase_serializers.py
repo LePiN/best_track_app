@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from hotel_selector_api.hotel_serializers import HotelSerializer
+from desafio_sbtur.hotel_selector_api.hotel_serializers import HotelSerializer
 from .showcase_models import Showcase, PageRoute
 
 
@@ -21,4 +21,4 @@ class ShowCaseSerializer(serializers.ModelSerializer):
     class Meta:
         model = Showcase
         ordering = "id"
-        fields = ("id", "title", "subtitle", "routes", "itens")
+        fields = ("id", "title", "subtitle", "routes", "itens", "status")

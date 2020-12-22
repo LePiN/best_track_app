@@ -1,5 +1,5 @@
 from django.db import models
-from hotel_selector_api.hotel_models import Hotel
+from desafio_sbtur.hotel_selector_api.hotel_models import Hotel
 
 
 class PageRoute(models.Model):

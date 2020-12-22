@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from location_selector_api.location_serializers import CitySerializer, CountrySerializer
+from desafio_sbtur.location_selector_api.location_serializers import CitySerializer, CountrySerializer
 from .hotel_models import (
     Hotel,
     Category,
