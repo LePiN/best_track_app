@@ -1,9 +1,9 @@
 from rest_framework import viewsets
-from .hotel_models import (
+from .models_hotel import (
     Hotel,
     Category,
 )
-from hotel_selector_api.hotel_serializers import HotelSerializer, CategorySerializer
+from hotel_selector_api.serializers_hotel import HotelSerializer, CategorySerializer
 
 
 class CategoryViewSet(viewsets.ModelViewSet):

@@ -1,4 +1,4 @@
-from .showcase_models import Showcase
+from .models_showcase import Showcase
 
 
 def showcase_filter(request):

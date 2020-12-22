@@ -1,9 +1,9 @@
 from django.contrib import admin
 from rest_framework import routers
 from django.urls import include, path
-from showcase_selector_api.showcase_views import ShowcaseViewSet, PageRouterViewSet
-from hotel_selector_api.hotel_views import HotelViewSet, CategoryViewSet
-from location_selector_api.location_views import (
+from showcase_selector_api.views_showcase import ShowcaseViewSet, PageRouterViewSet
+from hotel_selector_api.views_hotel import HotelViewSet, CategoryViewSet
+from location_selector_api.views_location import (
     CityViewSet,
     CountryViewSet,
 )

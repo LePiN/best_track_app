@@ -1,5 +1,5 @@
 from rest_framework import serializers
-from .location_models import (
+from .models_location import (
     City,
     Country,
 )

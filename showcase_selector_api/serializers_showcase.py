@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from hotel_selector_api.hotel_serializers import HotelSerializer
-from .showcase_models import Showcase, PageRoute
+from hotel_selector_api.serializers_hotel import HotelSerializer
+from .models_showcase import Showcase, PageRoute
 
 
 class PageRouteSerializer(serializers.ModelSerializer):

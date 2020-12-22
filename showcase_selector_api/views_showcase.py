@@ -1,11 +1,11 @@
 from rest_framework import viewsets
 from rest_framework.response import Response
-from .showcase_filters import showcase_filter, filter_showcase_itens
-from .showcase_models import (
+from .filters_showcase import showcase_filter, filter_showcase_itens
+from .models_showcase import (
     Showcase,
     PageRoute,
 )
-from .showcase_serializers import ShowCaseSerializer, PageRouteSerializer
+from .serializers_showcase import ShowCaseSerializer, PageRouteSerializer
 
 
 class PageRouterViewSet(viewsets.ModelViewSet):

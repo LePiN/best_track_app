@@ -1,9 +1,9 @@
 from rest_framework import viewsets
-from .location_models import (
+from .models_location import (
     City,
     Country,
 )
-from location_selector_api.location_serializers import (
+from location_selector_api.serializers_location import (
     CitySerializer,
     CountrySerializer,
 )

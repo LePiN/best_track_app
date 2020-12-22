@@ -1,6 +1,6 @@
 from rest_framework import serializers
-from location_selector_api.location_serializers import CitySerializer, CountrySerializer
-from .hotel_models import (
+from location_selector_api.serializers_location import CitySerializer, CountrySerializer
+from .models_hotel import (
     Hotel,
     Category,
 )
