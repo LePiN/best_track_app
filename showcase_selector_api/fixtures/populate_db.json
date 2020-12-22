@@ -1,0 +1,242 @@
+[
+    {
+        "pk": 1,
+        "model": "showcase_selector_api.PageRoute",
+        "fields": {
+            "page_identifier": "/"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "showcase_selector_api.PageRoute",
+        "fields": {
+            "page_identifier": "/destinos"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "showcase_selector_api.PageRoute",
+        "fields": {
+            "page_identifier": "/sobre"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "hotel_selector_api.Category",
+        "fields": {
+            "name": "Hospedagem",
+            "slug": "hospedagem"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "hotel_selector_api.Category",
+        "fields": {
+            "name": "Apartamento",
+            "slug": "apartamento"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "hotel_selector_api.Category",
+        "fields": {
+            "name": "Hostel",
+            "slug": "hostel"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "location_selector_api.Country",
+        "fields": {
+            "name": "Brasil",
+            "slug": "brasil"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "location_selector_api.City",
+        "fields": {
+            "name": "Gramado",
+            "slug": "gramado",
+            "state": "RS"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "location_selector_api.City",
+        "fields": {
+            "name": "Iraí",
+            "slug": "irai",
+            "state": "RS"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "location_selector_api.City",
+        "fields": {
+            "name": "Joinville",
+            "slug": "joinville",
+            "state": "SC"
+        }
+    },
+    {
+        "pk": 4,
+        "model": "location_selector_api.City",
+        "fields": {
+            "name": "Florianópolis",
+            "slug": "florianopolis",
+            "state": "SC"
+        }
+    },
+    {
+        "pk": 5,
+        "model": "location_selector_api.City",
+        "fields": {
+            "name": "Brasília",
+            "slug": "brasilia",
+            "state": "DF"
+        }
+    },
+    {
+        "pk": 6,
+        "model": "location_selector_api.City",
+        "fields": {
+            "name": "Porto Alegre",
+            "slug": "porto-alegre",
+            "state": "RS"
+        }
+    },
+    {
+        "pk": 7,
+        "model": "location_selector_api.City",
+        "fields": {
+            "name": "Poços de Caldas",
+            "slug": "pocos-de-caldas",
+            "state": "MG"
+        }
+    },
+    {
+        "pk": 1,
+        "model": "hotel_selector_api.Hotel",
+        "fields": {
+            "hotel_name": "Alameda Alegra",
+            "slug": "alameda-alegra",
+            "image": "http://sbtur.com/images/alameda-alegra.jpg",
+            "price": 3500,
+            "city":1,
+            "country": 1,
+            "category": 1
+        }
+    },
+    {
+        "pk": 2,
+        "model": "hotel_selector_api.Hotel",
+        "fields": {
+            "hotel_name": "AJ Termas Iraí",
+            "slug": "aj-termas-irai",
+            "image": "http://sbtur.com/images/aj-termas-irai.jpg",
+            "price": 6900,
+            "city":2,
+            "country": 1,
+            "category": 1
+        }
+    },
+    {
+        "pk": 3,
+        "model": "hotel_selector_api.Hotel",
+        "fields": {
+            "hotel_name": "Allia Gran Hotel Brasília Suites/ Allia Hotel",
+            "slug": "allia-gran-hotel-brasilia-suites",
+            "image": "http://sbtur.com/images/allia-gran-hotel-brasilia-suites.jpg",
+            "price": 4950,
+            "city":5,
+            "country": 1,
+            "category": 2
+        }
+    },
+    {
+        "pk": 4,
+        "model": "hotel_selector_api.Hotel",
+        "fields": {
+            "hotel_name": "Hotel Fazenda Dona Francisca",
+            "slug": "hotel-fazenda-dona-francisca",
+            "image": "http://sbtur.com/images/hotel-fazenda-dona-francisca.jpg",
+            "price": 4950,
+            "city":3,
+            "country": 1,
+            "category": 3
+        }
+    },
+    {
+        "pk": 5,
+        "model": "hotel_selector_api.Hotel",
+        "fields": {
+            "hotel_name": "Slavieiro Florianópolis Baia Norte",
+            "slug": "slavieiro-florianopolis-baia-norte",
+            "image": "http://sbtur.com/images/slavieiro-florianopolis.jpg",
+            "price": 5230,
+            "city":4,
+            "country": 1,
+            "category": 1
+        }
+    },
+    {
+        "pk": 6,
+        "model": "hotel_selector_api.Hotel",
+        "fields": {
+            "hotel_name": "Intercity Cidade Baixa",
+            "slug": "intercity-cidade-baixa",
+            "image": "http://sbtur.com/images/intercity-cidade-baixa.jpg",
+            "price": 8300,
+            "city":4,
+            "country": 1,
+            "category": 1
+        }
+    },
+    {
+        "pk": 7,
+        "model": "hotel_selector_api.Hotel",
+        "fields": {
+            "hotel_name": "Ibis Poços de Caldas",
+            "slug": "ibis-pocos-de-caldas",
+            "image": "http://sbtur.com/images/ibis-pocos-de-caldas.jpg",
+            "price": 6250,
+            "city":7,
+            "country": 1,
+            "category": 1
+        }
+    },
+    {
+        "pk": 1,
+        "model": "showcase_selector_api.Showcase",
+        "fields": {
+            "title": "Melhores Hotéis",
+            "subtitle": "Veja os hotéis mais procurados",
+            "routes": [1, 2],
+            "itens": [1, 2, 3, 4, 5],
+            "status": "ACTIVE"
+        }
+    },
+    {
+        "pk": 2,
+        "model": "showcase_selector_api.Showcase",
+        "fields": {
+            "title": "Pacotes imperdíveis",
+            "subtitle": "Procurando pacotes em família?",
+            "routes": [1],
+            "itens": [5, 3, 4, 6, 7],
+            "status": "INACTIVE"
+        }
+    },
+    {
+        "pk": 3,
+        "model": "showcase_selector_api.Showcase",
+        "fields": {
+            "title": "Hotéis na região sul",
+            "subtitle": "Veja os melhores hotéis do RS",
+            "routes": [3],
+            "itens": [1, 6, 2, 5],
+            "status": "BUILDING"
+        }
+    }
+]
