@@ -38,7 +38,7 @@ $ source .venv/Scripts/activate
 
 Instalando dependências:
 ```
-(.venv)$ pip install requirements.txt
+(.venv)$ pip install -r requirements.txt
 ```
 
 Preparando banco de dados da aplicação:
