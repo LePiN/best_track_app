@@ -12,7 +12,7 @@ def showcase_filter(request):
 
 def _filter_page_route(request, queryset):
     queryset = (
-        queryset.filter(routes__page_identifier__in=request["page_routes"])
+        queryset.filter(routes__page_identifier__in=request["page_routes"]).distinct()
         if request["page_routes"]
         else queryset
     )
@@ -21,7 +21,7 @@ def _filter_page_route(request, queryset):
 
 def _filter_status_showcase(request, queryset):
     queryset = (
-        queryset.filter(status__in=request["status_showcase"])
+        queryset.filter(status__in=request["status_showcase"]).distinct()
         if request["status_showcase"]
         else queryset
     )
