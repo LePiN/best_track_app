@@ -33,7 +33,7 @@ $ source .venv/bin/activate
 - Criando e utilizando ambiente virtual Windows:
 ```
 $ python -m venv .venv
-$ source .venv/Script/activate
+$ source .venv/Scripts/activate
 ```
 
 Instalando dependências:
