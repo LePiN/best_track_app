@@ -1,6 +1,6 @@
-# Desafio SBTur
+# Desafio Best Track
 
-Projeto de avaliação técnica para função de desenvolvedor back-end da empresa SBTur. Trata-se de um pequeno serviço de API focado em recuperar, de forma seletiva ou não, uma representação serializável de uma vitrine (essencialmente, uma coleção da hotéis). Para fins de facilitar testes com o projeto também é possível inserir e remover objetos via interface Django admin.
+Trata-se de um pequeno serviço de API focado em recuperar, de forma seletiva ou não, uma representação serializável de uma vitrine (essencialmente, uma coleção da hotéis). Para fins de facilitar testes com o projeto também é possível inserir e remover objetos via interface Django admin.
 
 ## 🚀 Começando
 
